@@ -13,10 +13,10 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 ### Running the app and importing the data:
 1. Begin by specifying the units of time and data to be used (these are set to be sec and adu by default but can be edited). 
 2. Click the import time series button to import your raw data. Accepted extensions are .csv, .xlsx, .txt. This file should contain two columns with headers w_n and t_n containing the raw measurements and time data respectively. 
-3. After importing the data, you should see it plotted on the result panel on the right.
+3. After importing the data, you should see it plotted on the "results" panel on the right.
 
 ### Editing the temporal and detector settings and initializing MCMC chain:
-1. The min and max step time values will automatically populate based on the imported data (but can be edited if needed). 
+1. The min and max step time values will automatically populated based on the imported data (but can be edited if needed). 
 2. Enter the exposure time, offset, variance, and gain values used to collect the data.
 3. Select the type of camera used from the excess noise factor drop-down menu. 
 4. Click the initialize MCMC button.
