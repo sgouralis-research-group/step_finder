@@ -4,15 +4,15 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 
 
 ### Installing the app:
-1. Download the Chiara's Step Finder.mlappinstall file.
+1. Download the Chiara's_Step_Finder.mlappinstall file.
 2. Open MATLAB.
 3. Click on the Apps tab at the top.
 4. Click on Install app and select the Chiara's Step Finder.mlappinstall file. Click install.
-5. Once the app is successfully installed, the app will be found under "My apps". It will be named "Chiara's Step Finder". Just click on it and a new window will open. This will look like the attached screenshot.
+5. Once the app is successfully installed, the app will be found under "My apps". It will be named "Chiara's_Step_Finder". Just click on it and a new window will open. This will look like the attached screenshot.
 
 ### Running the app and importing the data:
 1. Begin by specifying the units of time and data to be used (these are set to be sec and adu by default but can be edited). 
-2. Click the import time series button to import your raw data. Accepted extensions are .csv, .xlsx, .txt. This file should contain two columns with headers w_n and t_n containing the raw measurements and time data respectively. 
+2. Click the import time series button to import your raw data. Accepted extensions are .csv, .xlsx, .txt. This file should contain two columns with headers w_n and t_n containing the raw measurements and time data respectively. If the time data are not provided, set t_n = 1, 2, 3,..
 3. After importing the data, you should see it plotted on the "results" panel on the right.
 
 ### Editing the temporal and detector settings and initializing MCMC chain:
@@ -35,6 +35,9 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 
 ### Using the reset button
 Click the reset button to start over. You can click this button at any point.
+
+## Example Data Set
+Example data set are provided. See "" for demonstration purposes. To analyze this data set use the following camera parameters: offset = ..... units of time = units of meas =, camera type etc. 
 
 <!-- ## Contact
 If you have any questions, contact us: <br>
