@@ -12,11 +12,11 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 
 ### Running the app and importing the data:
 1. Begin by specifying the units of time and data to be used (these are set to be sec and adu by default but can be edited). 
-2. Click the import time series button to import your raw data. Accepted extensions are .csv, .xlsx, .txt. This file should contain two columns with headers w_n and t_n containing the raw measurements and time data respectively. If the time data are not provided, set t_n = 1, 2, 3,..
+2. Click the import time series button to import your raw data. Accepted extensions are .csv, .xlsx, .txt. This file should contain two columns with headers w_n and t_n containing the raw measurements and time data respectively. If the time data is not provided, set t_n = 1, 2, 3,... .
 3. After importing the data, you should see it plotted on the "results" panel on the right.
 
 ### Editing the temporal and detector settings and initializing MCMC chain:
-1. The min and max step time values will automatically populated based on the imported data (but can be edited if needed). 
+1. The min and max step time values will automatically populate based on the imported data (but can be edited if needed). 
 2. Enter the exposure time, offset, variance, and gain values used to collect the data.
 3. Select the type of camera used from the excess noise factor drop-down menu. 
 4. Click the initialize MCMC button.
@@ -37,7 +37,7 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 Click the reset button to start over. You can click this button at any point.
 
 ## Example Data Set
-Example data set are provided. See "" for demonstration purposes. To analyze this data set use the following camera parameters: offset = ..... units of time = units of meas =, camera type etc. 
+An example data set is provided. See "" for demonstration purposes. To analyze this data set use the following settings and camera parameters: units of time = sec, units of data = adu, exposure period = 0.1, offset = 4350, variance = 1940, gain = 0.64, camera type: EMCCD. 
 
 <!-- ## Contact
 If you have any questions, contact us: <br>
