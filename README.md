@@ -11,9 +11,10 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 5. Once the app is successfully installed, the app will be found under "My apps". It will be named "Chiara's_Step_Finder". Just click on it and a new window will open. This will look like the attached screenshot.
 
 ### Running the app and importing the data:
-1. Begin by specifying the units of time and data to be used (these are set to be sec and adu by default but can be edited). 
-2. Click the import time series button to import your raw data. Accepted extensions are .csv, .xlsx, .txt. This file should contain two columns with headers w_n and t_n containing the raw measurements and time data respectively. If the time data is not provided, set t_n = 1, 2, 3,... .
-3. After importing the data, you should see it plotted on the "results" panel on the right.
+1. Begin by specifying the units of time and data to be used (these are set to be sec and adu by default but can be edited).
+2. The field for the number of expected steps "M" can also be edited although the default M = 25 is usually sufficient for most applications involving ~10 steps of less. However, for cases with many more expected steps, M should be increased. This value affects the computational time needed, so generally very large values (unless necessary) are not advised. 
+3. Click the import time series button to import your raw data. Accepted extensions are .csv, .xlsx, .txt. This file should contain two columns with headers w_n and t_n containing the raw measurements and time data respectively. If the time data is not provided, set t_n = 1, 2, 3,... .
+4. After importing the data, you should see it plotted on the "results" panel on the right.
 
 ### Editing the temporal and detector settings and initializing MCMC chain:
 1. The min and max step time values will automatically populate based on the imported data (but can be edited if needed). 
