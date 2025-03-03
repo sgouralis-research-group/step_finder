@@ -8,7 +8,7 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 2. Open MATLAB.
 3. Click on the Apps tab at the top.
 4. Click on Install app and select the Chiara's Step Finder.mlappinstall file. Click install.
-5. Once the app is successfully installed, the app will be found under "My apps". It will be named "Chiara's_Step_Finder". Just click on it and a new window will open. This will look like the attached screenshot.
+5. Once the app is successfully installed, the app will be found under "My apps" in MATALAB's Apps tab. It will be named "Chiara's_Step_Finder". Just click on it and a new window will open. This will look like the attached screenshot.
 
 ### Running the app and importing the data:
 1. Begin by specifying the units of time and data to be used (these are set to be sec and adu by default but can be edited).
