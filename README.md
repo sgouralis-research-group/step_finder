@@ -39,7 +39,7 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 Click the reset button to start over. You can click this button at any point.
 
 ## Example Data Set
-An example data set is provided (demo_flourescence_data.txt). To analyze this data set use the following settings: units of time = sec, units of data = adu, exposure period = 0.1, offset = 4350, variance = 1940, gain = 0.64, camera type: EMCCD. 
+An example data set is provided (demo_flourescence_data.txt). To analyze this data set use the following settings: units of time = sec, units of data = adu, M = 25, exposure period = 0.1, offset = 4350, variance = 1940, gain = 0.64, camera type: EMCCD. 
 
 <!-- ## Contact
 If you have any questions, contact us: <br>
