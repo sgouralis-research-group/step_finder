@@ -1,6 +1,6 @@
 # Step Finder
 
-This is a standalone MATLAB app for single-moecule time series analysis. The user imports laboratory single-molecule fluorescence data and the step-finder estimates the number and characteristics of photobleaching events.
+This is a standalone MATLAB app for single-molecule time series analysis. The user imports laboratory single-molecule fluorescence data and the step-finder estimates the number and characteristics of photobleaching events.
 
 
 ### Installing the app:
