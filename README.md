@@ -4,24 +4,24 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 
 
 ### Installing the app:
-1. Download the Chiara's_Step_Finder.mlappinstall file.
+1. Download the Chiara_Step_Finder_v01.mlappinstall file.
 2. Open MATLAB.
 3. Click on the Apps tab at the top.
 4. Click on Install app and select the Chiara's Step Finder.mlappinstall file. Click install.
-5. Once the app is successfully installed, the app will be found under "My apps" in MATALAB's Apps tab. It will be named "Chiara's_Step_Finder". 
+5. Once the app is successfully installed, the app will be found under "My apps" in MATALAB's Apps tab. It will be named "Chiara_Step_Finder_v01". 
 
 ### Running the app and importing the data:
 1. Once the app has been installed, click on it and a new window will open. This will look like the attached screenshot.
 2. Begin by specifying the units of time and data to be used (these are set to be sec and adu by default but can be edited).
-3. The field for the number of expected steps "M" can also be edited although the default M = 25 is usually sufficient for most applications involving ~10 steps of less. However, for cases with many more expected steps, M should be increased. This value affects the computational time needed, so generally very large values (unless necessary) are not advised. 
 4. Click the import time series button to import your raw data. Accepted extensions are .csv, .xlsx, .txt. This file should contain two columns with headers w_n and t_n containing the raw measurements and time data respectively. If the time data is not provided, set t_n = 1, 2, 3,... .
 5. After importing the data, you should see it plotted on the "results" panel on the right.
 
 ### Editing the temporal and detector settings and initializing MCMC chain:
-1. The min and max step time values will automatically populate based on the imported data (but can be edited if needed). 
-2. Enter the exposure time, offset, variance, and gain values used to collect the data.
-3. Select the type of camera used from the excess noise factor drop-down menu. 
-4. Click the initialize MCMC button.
+1. The max number of steps is set to 25 by default which is usually sufficient for most applications involving ~10 steps of less. However, for cases with many more expected steps, this value should be increased. This does affects the computational time needed, so generally very large values (unless necessary) are not advised. 
+2. The min and max step time values will automatically populate based on the imported data (but can be edited if needed). 
+3. Enter the exposure time, offset, variance, and gain values used to collect the data.
+4. Select the type of camera used from the excess noise factor drop-down menu. 
+5. Click the initialize MCMC button.
 
 ### Running MCMC:
 1. Enter the desired MCMC batch size (this is how many iterations to run every time the expand MCMC button is clicked). The suggested size is 100, but can be adjusted.
@@ -39,7 +39,7 @@ This is a standalone MATLAB app for single-moecule time series analysis. The use
 Click the reset button to start over. You can click this button at any point.
 
 ## Example Data Set
-An example data set is provided (demo_flourescence_data.txt). To analyze this data set use the following settings: units of time = sec, units of data = adu, M = 25, exposure period = 0.1, offset = 4350, variance = 1940, gain = 0.64, camera type: EMCCD. 
+An example data set is provided (demo_flourescence_data.txt). To analyze this data set use the following settings: units of time = sec, units of data = adu, max # of steps = 25, exposure period = 0.1, offset = 4350, variance = 1940, gain = 0.64, camera type: EMCCD. 
 
 <!-- ## Contact
 If you have any questions, contact us: <br>
