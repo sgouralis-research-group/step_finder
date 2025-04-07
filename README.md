@@ -8,7 +8,7 @@ This is a standalone MATLAB app for single-molecule time series analysis. The us
 2. Open MATLAB.
 3. Click on the Apps tab at the top.
 4. Click on the Install app and select the downloaded Chiara_Step_Finder_v03.mlappinstall file. Click install.
-5. Once the app is successfully installed, the app will be found under "My apps" in MATALAB's Apps tab. It will be named "Chiara_Step_Finder_v01". 
+5. Once the app is successfully installed, the app will be found under "My apps" in MATALAB's Apps tab. It will be named "Chiara_Step_Finder_v03". 
 
 ### Running the app and importing the data:
 1. Once the app has been installed, click on it and a new window will open. This will look like the attached screenshot.
