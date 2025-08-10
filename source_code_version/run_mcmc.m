@@ -34,9 +34,9 @@ chain = chainer_main([], 0, opts, false, false);
 
 %% Expand chain 
 batch_size = 100;
-flag_status = true; % true = shows progress report in command window
-flag_visual = false; % true = shows progress report in separate window
-chain = chainer_main(chain, batch_size, [], flag_status, flag_visual);
+flg_status = true; % true = shows progress report in command window
+flg_visual = false; % true = shows progress report in separate window
+chain = chainer_main(chain, batch_size, [], flg_status, flg_visual);
 
 %% Save result 
 save('mcmc_output.mat', 'chain');
