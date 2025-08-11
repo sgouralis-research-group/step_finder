@@ -1,7 +1,8 @@
 # Step Finder
 
-This is a standalone MATLAB app for single-molecule time series analysis. The user imports laboratory single-molecule fluorescence data and the step-finder estimates the number and characteristics of photobleaching events.
+> **Note:** [Source code](#source-code) is available in the `source_code_version` folder.  
 
+This is a standalone MATLAB app for single-molecule time series analysis. The user imports laboratory single-molecule fluorescence data and the step-finder estimates the number and characteristics of photobleaching events.
 
 ### Installing the app:
 1. Download the Chiara_Step_Finder_v03.mlappinstall file.
@@ -40,6 +41,16 @@ Click the reset button to start over. You can click this button at any point.
 
 ## Example Data Set
 An example data set is provided (demo_flourescence_data.txt). To analyze this data set use the following settings: units of time = sec, units of data = adu, max # of steps = 25, exposure period = 0.1, offset = 4350, variance = 1940, gain = 0.64, camera type: EMCCD. 
+
+## Source Code
+In addition to the MATLAB app, we also provide a source code version for advanced users. The source code is located in the source_code_version folder. 
+- The app and source code are separate; you can use either without the other.
+- The source code consists of a main driver: `run_mcmc.m` and a supporting library folder: `./lib`. Both are required for proper functioning.
+- The main driver is currently set up to read one dataset and create, expand, and analyze one MCMC chain. To analyze multiple datasets, we recommend following these steps using a `for` loop setup with chains stored in cell arrays:  
+  1. Read all datasets  
+  2. Create a separate chain per dataset  
+  3. Expand/analyze each chain individually 
+
 
 <!-- ## Contact
 If you have any questions, contact us: <br>
