@@ -5,11 +5,11 @@
 This is a standalone MATLAB app for single-molecule time series analysis. The user imports laboratory single-molecule fluorescence data and the step-finder estimates the number and characteristics of photobleaching events.
 
 ### Installing the app:
-1. Download the Chiara_Step_Finder_v03.mlappinstall file.
+1. Download the Chiara_Step_Finder_v10.mlappinstall file.
 2. Open MATLAB.
 3. Click on the Apps tab at the top.
-4. Click on the Install app and select the downloaded Chiara_Step_Finder_v03.mlappinstall file. Click install.
-5. Once the app is successfully installed, the app will be found under "My apps" in MATALAB's Apps tab. It will be named "Chiara_Step_Finder_v03". 
+4. Click on the Install app and select the downloaded Chiara_Step_Finder_v10.mlappinstall file. Click install.
+5. Once the app is successfully installed, the app will be found under "My apps" in MATALAB's Apps tab. It will be named "Chiara_Step_Finder_v10". 
 
 ### Running the app and importing the data:
 1. Once the app has been installed, click on it and a new window will open. This will look like the attached screenshot.
